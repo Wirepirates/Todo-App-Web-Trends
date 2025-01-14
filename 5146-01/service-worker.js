@@ -1,12 +1,12 @@
 const CACHE_NAME = 'to-do-pwa-cache-v1';
 const FILES_TO_CACHE = [
-    '/Todo-App-Web-Trends/',
-    '/Todo-App-Web-Trends/index.html',
-    '/Todo-App-Web-Trends/style.css',
-    '/Todo-App-Web-Trends/app.js',
-    '/Todo-App-Web-Trends/manifest.json',
-    '/Todo-App-Web-Trends/icons/icon-128.png',
-    '/Todo-App-Web-Trends/icons/icon-512.png'
+   '/checklist/',
+    '/checklist/index.html',
+    '/checklist/style.css',
+    '/checklist/app.js',
+    '/checklist/manifest.json',
+    '/checklist/icons/icon-128.png',
+    '/checklist/icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
